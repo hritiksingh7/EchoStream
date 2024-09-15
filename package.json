@@ -1,7 +1,7 @@
 {
   "name": "ytx",
   "version": "1.0.0",
-  "description": "baceknd social media streaming",
+  "description": "backend social media streaming",
   "type": "module",
   "main": "index.js",
   "scripts": {
@@ -16,5 +16,10 @@
   "devDependencies": {
     "nodemon": "^3.1.4",
     "prettier": "^3.3.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.6.2"
   }
 }
